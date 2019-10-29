@@ -1,5 +1,7 @@
 # Python Program for recursive binary search.
-# The idea of binary search is to use the information that the array *is sorted* and reduce the time complexity to O(Log n).
+# The idea of binary search is to use the information that the array *is sorted*
+# and reduce the time complexity (worst case) to O(Log n).
+# n/(2^k) <= 1; n <= 2^k; k = log2n
 
 # Returns index of x in arr if present, else -1
 def binarySearch(arr, l, r, x):
