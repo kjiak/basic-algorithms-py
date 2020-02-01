@@ -35,9 +35,9 @@ class Test(unittest.TestCase):
         # Test array
         arr = [2, 3, 4, 10, 40]
         x = 10
-        indexofx = 3
+        expectedresult = 3
         result = binarySearch(arr, 0, len(arr) - 1, x)
-        self.assertEqual(result, indexofx)
+        self.assertEqual(result, expectedresult)
 
 if __name__ == "__main__":
     unittest.main()
