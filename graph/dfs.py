@@ -2,7 +2,6 @@
 # from a given given graph
 from collections import defaultdict
 
-
 # This class represents a directed graph using
 # adjacency list representation
 class Graph:
@@ -49,8 +48,6 @@ class Graph:
         for i in range(len(arr)):
             print(arr[i], end=" ")
         print()
-
-    # Driver code
 
 import unittest
 
