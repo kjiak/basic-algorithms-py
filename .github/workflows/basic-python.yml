@@ -14,5 +14,5 @@ jobs:
         with:
           python-version: '3.7' 
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-      - run: python mergesort.py
+      - run: python sort/mergesort.py
 
