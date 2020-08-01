@@ -1,5 +1,5 @@
 # Python program for implementation of MergeSort
-
+# Time complexity: O(n*logn) (O(log(n) - height of tree))
 def mergeSort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2  # Finding the mid of the array

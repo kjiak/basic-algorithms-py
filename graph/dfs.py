@@ -1,5 +1,6 @@
 # Python3 program to print DFS traversal
 # from a given given graph
+# Time complexity O(V+E) (graph)
 from collections import defaultdict
 
 # This class represents a directed graph using
