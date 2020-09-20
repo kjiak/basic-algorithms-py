@@ -1,5 +1,5 @@
 def func(a):
-  return a - 1
+  return a - 2
 
 def test_testmethod():
-  assert func(6) == 5
+  assert func(6) == 4
