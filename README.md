@@ -3,5 +3,5 @@
 ## pylint
 `pip install pylint`
 
-## Credits
-Geeksforgeeks
+## credits
+geeksforgeeks
