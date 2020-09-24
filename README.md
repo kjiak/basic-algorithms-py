@@ -1,4 +1,7 @@
 # basic-algorithms-py
 
-# Credits
+## pylint
+`pip install pylint`
+
+## Credits
 Geeksforgeeks
